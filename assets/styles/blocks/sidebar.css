@@ -1,0 +1,21 @@
+/* Sidebar
+############################################################################ */
+
+.sidebar {
+  display: none;
+  min-width: 200px;
+  background-color: var(--darkest);
+}
+
+/* Page Navigation
+############################################################################ */
+
+.page-navigation {
+  position: sticky;
+  top: calc(var(--fluid-space-m) + var(--fluid-space-l));
+  padding: var(--fluid-space-m);
+}
+
+.page-navigation * {
+  color: var(--lightest);
+}
